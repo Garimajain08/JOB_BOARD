@@ -5,13 +5,7 @@ const passportConfig = require("./lib/passportConfig");
 const cors = require("cors");
 const fs = require("fs");
 
-app.use(cors(
-  {
-    origin:["https://deploy-mern-1whq.vercel.app"],
-    methods:["POST","GET"],
-    credentials:true
-  }
-  ));
+
 const uri = 'mongodb+srv://lavishgehlod210204:SteamMomos@cluster0.tg4zp3z.mongodb.net/jobBoard?retryWrites=true&w=majority'
 
 // MongoDB
