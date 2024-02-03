@@ -6,7 +6,7 @@ const cors = require("cors");
 const fs = require("fs");
 
 
-const uri = 'mongodb+srv://lavishgehlod210204:SteamMomos@cluster0.tg4zp3z.mongodb.net/jobBoard?retryWrites=true&w=majority'
+const uri = 'mongodb://127.0.0.1:27017/jobBoard'
 
 // MongoDB
 mongoose
